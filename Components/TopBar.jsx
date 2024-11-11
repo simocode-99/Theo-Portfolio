@@ -58,7 +58,7 @@ function TopBar() {
           </ul>
         </nav>
       )}
-      <header className="fixed top-0 left-0 h-[65px] w-full bg-topBarColor flex justify-between items-center lg:px-[20px] md:px-[10px] z-50">
+      <header className="fixed top-0 left-0 h-[65px] w-full bg-topBarColor flex justify-between items-center lg:px-[20px] md:px-[10px] xs:h-[55px] z-[49]">
         <HeadSVG />
         <button
           onClick={handleVisibleNav}

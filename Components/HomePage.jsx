@@ -14,8 +14,20 @@ function HomePage() {
       <img
         src={Robot2}
         alt=""
-        className="2xl:w-[349px] 2xl:h-[699px] xl:w-[349px] xl:h-[699px] md:w-[303] md:h-[607px] 2xl:absolute 2xl:top-[95vh] 2xl:right-[45px] 2xl:-translate-y-[100%] absolute top-[95vh] right-[40px] -translate-y-[100%]"
+        className="2xl:w-[349px] 2xl:h-[699px] xl:w-[349px] xl:h-[699px] 2xl:top-[95vh] 2xl:right-[45px] 2xl:-translate-y-[100%] lg:right-[40px] md:top-[95vh] md:right-[30px] md:opacity-[.5] sm:opacity-[.5] md:w-[349px] md:h-[699px] sm:w-[349px] sm:h-[699px] absolute top-[95vh] right-[40px] -translate-y-[100%]"
       />
+      <div className="InterfaceInfo text-center">
+        <h2 className="text-[2rem] text-textColor">Hi There!</h2>
+        <h1 className="text-textColor text-[40px] underline">
+          <span className="text-[2rem] no-underline">I'm</span> Theo Code
+        </h1>
+        <p className="w-[475px] text-textColor text-[22px] text-center">
+          I’m a front-end developer who’s all about creating smooth, responsive
+          user interfaces with ReactJS and Tailwind CSS. I’m focused on building
+          clean, intuitive designs that feel great to use. Always learning and
+          pushing to make every project better than the last!
+        </p>
+      </div>
     </section>
   );
 }
