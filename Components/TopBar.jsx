@@ -66,9 +66,9 @@ function TopBar() {
         >
           <MenuIcon />
         </button>
-        <ul className="flex lg:w-[50%] text-center lg:flex md:flex md:w-[50%] sm:hidden xs:hidden">
+        <ul className="flex lg:w-[47%] text-center lg:flex md:flex md:w-[50%] sm:hidden xs:hidden">
           <li
-            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`lg:text-[14.7px] md:text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#homePage" className="">
@@ -76,7 +76,7 @@ function TopBar() {
             </a>
           </li>
           <li
-            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`lg:text-[14.7px] md:text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#aboutPage" className="">
@@ -84,19 +84,19 @@ function TopBar() {
             </a>
           </li>
           <li
-            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`lg:text-[14.7px] md:text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#" className="">
-              ABOUT US
+              ABOUT ME
             </a>
           </li>
           <li
-            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`lg:text-[14.7px] md:text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#" className="">
-              CONTACT US
+              CONTACT
             </a>
           </li>
         </ul>

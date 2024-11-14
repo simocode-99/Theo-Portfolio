@@ -1,6 +1,7 @@
 import TopBar from "./TopBar";
 import Robot1 from "../assets/Robot 1.png";
 import Robot2 from "../assets/Robot 2.png";
+import IconsBox from "./IconsBoxes";
 
 function HomePage() {
   return (
@@ -21,14 +22,14 @@ function HomePage() {
           Hi There!
         </h2>
         <div className="namHead flex items-center w-fit mx-auto lg:mb-[50px] md:mb-[20px] gap-[20px]">
-          <span className="lg:text-textColor md:text-toolsBarColor text-[2.3rem] no-underline font-[600]">
+          <span className="lg:text-textColor md:text-toolsBarColor text-[2.2rem] no-underline font-[600]">
             I'm
           </span>
-          <h1 className="lg:text-textColor md:text-toolsBarColor lg:text-[45px] md:text-[30px] font-bold lg:leading-[3rem] md:leading-[2rem] border-b-2 bprder-solid lg:border-white md:border-toolsBarColor pb-0 ">
+          <h1 className="lg:text-textColor md:text-toolsBarColor lg:text-[40px] md:text-[30px] font-bold lg:leading-[3rem] md:leading-[2rem] border-b-2 bprder-solid lg:border-white md:border-toolsBarColor pb-0 ">
             Theo Code
           </h1>
         </div>
-        <p className="lg:w-[470px] md:w-[350px] lg:text-textColor md:text-toolsBarColor lg:text-[1.6rem] md:text-[1.2rem] md:font-[480] text-center mx-auto ">
+        <p className="lg:w-[470px] md:w-[350px] lg:text-textColor md:text-toolsBarColor lg:text-[1.5rem] md:text-[1.2rem] md:font-[480] text-center mx-auto ">
           I’m a <span className="font-bold">front-end developer</span> who’s all
           about creating smooth, responsive user interfaces with{" "}
           <span className="font-bold">ReactJS</span> and{" "}
@@ -37,6 +38,7 @@ function HomePage() {
           learning and pushing to make every project better than the last!
         </p>
       </div>
+      <IconsBox />
     </section>
   );
 }
