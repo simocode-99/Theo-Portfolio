@@ -58,7 +58,7 @@ function TopBar() {
           </ul>
         </nav>
       )}
-      <header className="fixed top-0 left-0 h-[65px] w-full bg-topBarColor flex justify-between items-center lg:px-[20px] md:px-[10px] xs:h-[55px] z-[49]">
+      <header className="fixed top-0 left-0 h-[65px] w-full bg-topBarColor flex justify-between items-center lg:px-[20px] md:px-[10px] xs:h-[55px] border-b-solid border-b-white border-b-[1px] border-opacity-[.5] z-[49]">
         <HeadSVG />
         <button
           onClick={handleVisibleNav}
@@ -66,9 +66,9 @@ function TopBar() {
         >
           <MenuIcon />
         </button>
-        <ul className="flex lg:w-[45%] text-center lg:flex md:flex md:w-[50%] sm:hidden xs:hidden">
+        <ul className="flex lg:w-[50%] text-center lg:flex md:flex md:w-[50%] sm:hidden xs:hidden">
           <li
-            className={`text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#homePage" className="">
@@ -76,7 +76,7 @@ function TopBar() {
             </a>
           </li>
           <li
-            className={`text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#aboutPage" className="">
@@ -84,7 +84,7 @@ function TopBar() {
             </a>
           </li>
           <li
-            className={`text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#" className="">
@@ -92,7 +92,7 @@ function TopBar() {
             </a>
           </li>
           <li
-            className={`text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
+            className={`text-[14.7px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
             <a href="#" className="">

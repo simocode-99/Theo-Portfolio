@@ -1,7 +1,7 @@
 export default function HeadSVG() {
   return (
     <svg
-      className="lg:pl-[50px] md:pl-[20px] md:w-[135px] sm:pl-[20px] xl:w-[170px] 2xl:w-[170px] lg:w-[160px] sm:w-[130px]"
+      className="lg:translate-x-[50px] md:translate-x-[20px] md:w-[135px] sm:translate-x-[20px] xl:w-[170px] 2xl:w-[170px] lg:w-[160px] sm:w-[130px]"
       width="150"
       height="22"
       viewBox="0 0 120 22"
