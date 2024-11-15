@@ -10,7 +10,7 @@ function HomePage() {
       <img
         src={Robot1}
         alt="Robot 1"
-        className="2xl:w-[386px] 2xl:h-[686px] xl:w-[386px] xl:h-[686px] md:w-[341px] md:h-[606px] 2xl:absolute 2xl:top-[95vh] 2xl:left-[45px] 2xl:-translate-y-[100%] left-[40px] md:top-[95vh] md:left-[30px] lg:opacity-100 md:opacity-[0.65] absolute top-[95vh] -translate-y-[100%] "
+        className="2xl:w-[386px] 2xl:h-[686px] xl:w-[386px] xl:h-[686px] md:w-[341px] md:h-[606px] 2xl:absolute 2xl:top-[95vh] 2xl:left-[45px] 2xl:-translate-y-[100%] left-[40px] md:top-[95vh] md:left-[30px] xs:hidden xs:top-[95vh] xs:left-[30px] xs:w-[386px] xs:h-[686px] xs:opacity-[.5] lg:opacity-100 md:opacity-[0.65] absolute top-[95vh] -translate-y-[100%] "
       />
       <img
         src={Robot2}
@@ -23,13 +23,13 @@ function HomePage() {
         </h2>
         <div className="namHead flex items-center w-fit mx-auto lg:mb-[50px] md:mb-[20px] gap-[20px]">
           <span className="lg:text-textColor md:text-toolsBarColor text-[2.2rem] no-underline font-[600]">
-            I'm
+            {"I'm"}
           </span>
           <h1 className="lg:text-textColor md:text-toolsBarColor lg:text-[40px] md:text-[30px] font-bold lg:leading-[3rem] md:leading-[2rem] border-b-2 bprder-solid lg:border-white md:border-toolsBarColor pb-0 ">
             Theo Code
           </h1>
         </div>
-        <p className="lg:w-[470px] md:w-[350px] lg:text-textColor md:text-toolsBarColor lg:text-[1.5rem] md:text-[1.2rem] md:font-[480] text-center mx-auto ">
+        <p className="lg:w-[490px] p-[10px] md:w-[350px] lg:text-textColor md:text-toolsBarColor lg:text-[1.5rem] md:text-[1.2rem] md:font-[480] text-center mx-auto ">
           I’m a <span className="font-bold">front-end developer</span> who’s all
           about creating smooth, responsive user interfaces with{" "}
           <span className="font-bold">ReactJS</span> and{" "}

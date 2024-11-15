@@ -1,7 +1,7 @@
 function MenuIcon() {
   return (
     <svg
-      className="fill-white xl:hidden lg:hidden md:hidden sm:flex xs:flex w-[35px] h-[35px] sm:mr-[10%] xs:mr-[15px]"
+      className="fill-white 2xl:hidden xl:hidden lg:hidden md:hidden sm:flex xs:flex w-[35px] h-[35px] sm:mr-[10%] xs:mr-[15px]"
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
