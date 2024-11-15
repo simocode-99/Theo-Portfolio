@@ -5,17 +5,20 @@ import IconsBox from "./IconsBoxes";
 
 function HomePage() {
   return (
-    <section className="h-screen w-full relative" id="homePage">
+    <section
+      className="h-[100vh] w-full bg-backgroundColor relative"
+      id="homePage"
+    >
       <TopBar />
       <img
         src={Robot1}
         alt="Robot 1"
-        className="2xl:w-[386px] 2xl:h-[686px] xl:w-[386px] xl:h-[686px] md:w-[341px] md:h-[606px] 2xl:absolute 2xl:top-[95vh] 2xl:left-[45px] 2xl:-translate-y-[100%] left-[40px] md:top-[95vh] md:left-[30px] xs:hidden xs:top-[95vh] xs:left-[30px] xs:w-[386px] xs:h-[686px] xs:opacity-[.5] lg:opacity-100 md:opacity-[0.65] absolute top-[95vh] -translate-y-[100%] "
+        className="2xl:w-[386px] 2xl:h-[686px] xl:w-[386px] xl:h-[686px] md:w-[341px] md:h-[606px] 2xl:absolute 2xl:top-[95vh] 2xl:left-[45px] 2xl:-translate-y-[100%] left-[40px] md:top-[95vh] md:left-[30px] xs:hidden lg:opacity-100 md:opacity-[0.65] absolute top-[95vh] -translate-y-[100%] "
       />
       <img
         src={Robot2}
         alt="Robot 2"
-        className="2xl:w-[349px] 2xl:h-[699px] xl:w-[349px] xl:h-[699px] md:w-[310px] md:h-[620px] xs:w-[349px] xs:h-[699px] 2xl:top-[95vh] 2xl:right-[45px] 2xl:-translate-y-[100%] lg:right-[40px] md:top-[95vh] md:right-[30px] lg:opacity-100 md:opacity-[.65] absolute top-[95vh] right-[40px] -translate-y-[100%]"
+        className="2xl:w-[349px] 2xl:h-[699px] xl:w-[349px] xl:h-[699px] md:w-[310px] md:h-[620px] xs:w-[349px] xs:h-[699px] 2xl:top-[95vh] 2xl:right-[45px] 2xl:-translate-y-[100%] lg:right-[40px] md:top-[95vh] md:right-[30px] xs:right-0 xs:top-[20px] xs:text-textColor xs:translate-y-0 lg:opacity-100 md:opacity-[.65] absolute top-[95vh] right-[40px] -translate-y-[100%]"
       />
       <div className="InterfaceInfo w-fit text-center lg:translate-y-[18vh] md:translate-y-[23vh] lg:bg-transparent md:bg-white/50 md:backdrop-blur-[10px] lg:p-0 md:p-[15px] md:pb-[15px] mx-auto md:rounded-[10px] lg:transition-none lg:hover:scale-[1] md:hover:scale-[1.02] md:transition-all md:transition-linear md:duration-500 cursor-pointer">
         <h2 className="lg:text-[2.1rem] md:text-[1.5rem] lg:text-textColor md:text-toolsBarColor text-center font-[600] lg:leading-[4rem] md:leading-[2rem]">
