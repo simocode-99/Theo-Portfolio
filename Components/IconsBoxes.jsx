@@ -6,7 +6,7 @@ import Email from "../Icons/Email";
 function IconsBox() {
   return (
     <div
-      className={`w-fit flex absolute top-[80vh] left-[50%] -translate-x-[50%] 2xl:gap-[40px] xl:gap-[30px] lg:gap-[30px] md:gap-[25px] rounded-[30px] backdrop-blur-[10px]`}
+      className={`w-fit flex absolute top-[80vh] left-[50%] md:-translate-x-[50%] 2xl:gap-[40px] xl:gap-[30px] lg:gap-[30px] md:gap-[25px] rounded-[30px] backdrop-blur-[10px] mdx:flex-col mdx:left-[20px] mdx:top-[64%] mdx:bottom-[20px] mdx:gap-[20px]`}
     >
       <a
         href="https://x.com/TheoCode1?t=RKJDnha--DSi5J_Tppb5RA&s=09"

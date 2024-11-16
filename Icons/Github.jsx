@@ -1,7 +1,8 @@
 function AiFillGithub(props) {
   return (
     <svg
-      className="w-[50px] h-[35px] hover:scale-[1.05] transition-all duration-300 m-[5px]"
+      // className="w-[50px] h-[35px] hover:scale-[1.05] transition-all duration-300 m-[5px]"
+      className="hover:scale-[2.1] scale-[2] transition-all duration-300 p-[5px] rounded-[50%]"
       stroke="currentColor"
       fill="currentColor"
       strokeWidth={0}

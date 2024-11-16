@@ -6,19 +6,19 @@ import IconsBox from "./IconsBoxes";
 function HomePage() {
   return (
     <section
-      className="h-[100vh] w-full bg-backgroundColor relative"
+      className="h-[100vh] w-full bg-backgroundColor absolute top-0 left-0 "
       id="homePage"
     >
       <TopBar />
       <img
         src={Robot1}
         alt="Robot 1"
-        className="2xl:w-[386px] 2xl:h-[686px] xl:w-[386px] xl:h-[686px] md:w-[341px] md:h-[606px] 2xl:absolute 2xl:top-[95vh] 2xl:left-[45px] 2xl:-translate-y-[100%] left-[40px] md:top-[95vh] md:left-[30px] xs:hidden lg:opacity-100 md:opacity-[0.65] absolute top-[95vh] -translate-y-[100%] "
+        className="2xl:w-[386px] 2xl:h-[686px] xl:w-[386px] xl:h-[686px] md:w-[341px] md:h-[606px] 2xl:absolute 2xl:top-[95vh] 2xl:left-[45px] md:-translate-y-[100%] md:top-[95vh] md:left-[30px] lg:block mdx:hidden lg:opacity-100 md:opacity-[0.65] absolute "
       />
       <img
         src={Robot2}
         alt="Robot 2"
-        className="2xl:w-[349px] 2xl:h-[699px] xl:w-[349px] xl:h-[699px] md:w-[310px] md:h-[620px] xs:w-[349px] xs:h-[699px] 2xl:top-[95vh] 2xl:right-[45px] 2xl:-translate-y-[100%] lg:right-[40px] md:top-[95vh] md:right-[30px] xs:right-0 xs:top-[20px] xs:text-textColor xs:translate-y-0 lg:opacity-100 md:opacity-[.65] absolute top-[95vh] right-[40px] -translate-y-[100%]"
+        className="2xl:w-[349px] 2xl:h-[699px] xl:w-[349px] xl:h-[699px] md:w-[310px] md:h-[620px] xs:w-[349px] xs:h-[699px] 2xl:top-[95vh] 2xl:right-[45px] 2xl:-translate-y-[100%] lg:right-[40px] md:top-[95vh] md:right-[30px] xs:text-textColor lg:opacity-100 md:opacity-[.65] absolute top-[95vh] right-[40px] -translate-y-[100%] mdx:top-[100vh] mdx:right-0 mdx:opacity-[0.5] mdx:-translate-y-[100%] "
       />
       <div className="InterfaceInfo w-fit text-center lg:translate-y-[18vh] md:translate-y-[23vh] lg:bg-transparent md:bg-white/50 md:backdrop-blur-[10px] lg:p-0 md:p-[15px] md:pb-[15px] mx-auto md:rounded-[10px] lg:transition-none lg:hover:scale-[1] md:hover:scale-[1.02] md:transition-all md:transition-linear md:duration-500 cursor-pointer">
         <h2 className="lg:text-[2.1rem] md:text-[1.5rem] lg:text-textColor md:text-toolsBarColor text-center font-[600] lg:leading-[4rem] md:leading-[2rem]">
@@ -32,7 +32,7 @@ function HomePage() {
             Theo Code
           </h1>
         </div>
-        <p className="lg:w-[490px] p-[10px] md:w-[350px] lg:text-textColor md:text-toolsBarColor lg:text-[1.5rem] md:text-[1.2rem] md:font-[480] text-center mx-auto ">
+        <p className="lg:w-[490px] p-[10px] md:w-[350px] lg:text-textColor md:text-toolsBarColor lg:text-[1.5rem] md:text-[1.2rem] md:font-[480] text-center mx-auto mdx:text-textColor mdx:w-[60%] mdx:rounded-[7px] mdx:translate-y-[17vh] mdx:backdrop-blur-[10px] mdx:text-[1.2rem]">
           I’m a <span className="font-bold">front-end developer</span> who’s all
           about creating smooth, responsive user interfaces with{" "}
           <span className="font-bold">ReactJS</span> and{" "}

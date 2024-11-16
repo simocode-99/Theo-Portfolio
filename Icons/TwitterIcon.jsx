@@ -1,7 +1,8 @@
 function AiOutlineTwitter(props) {
   return (
     <svg
-      className="hover:scale-[1.05] w-[50px] transition-all duration-300 m-[5px]"
+      // className="hover:scale-[1.05] w-[50px] transition-all duration-300 m-[5px]"
+      className="hover:scale-[2.1] scale-[2] transition-all duration-300 p-[5px] rounded-[50%]"
       stroke="currentColor"
       fill="currentColor"
       strokeWidth={0}
