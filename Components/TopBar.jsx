@@ -79,7 +79,7 @@ function TopBar() {
             className={`lg:text-[14.7px] md:text-[14px] flex-grow text-white transition-colors duration-100 cursor-pointer hover:text-white/75 active:text-white/50`}
           >
             {" "}
-            <a href="#" className="">
+            <a href="#portfolioPage" className="">
               PORTFOLIO
             </a>
           </li>

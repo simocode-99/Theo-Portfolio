@@ -7,7 +7,7 @@ import VsCode from "../Icons/VsCode";
 
 function ToolsBar() {
   const IconsNameClassName = `text-[1.4rem] font-semibold`;
-  const IconsClassName = `flex gap-[10px] cursor-pointer flex-grow items-center justify-center aniamtion-BarToolsAnimation relative left-[calc(100px * 8)]`;
+  const IconsClassName = `flex gap-[10px] cursor-pointer flex-grow items-center justify-center aniamtion-BarToolsAnimation relative left-[calc(100px * 8)] `;
   return (
     <nav className="w-[105vw] h-[60px] mt-[30px] px-[2.5vw] -translate-x-[2.5vw] bg-toolsBarColor -rotate-[2deg] text-iconsColor flex items-center justify-center flex-shrink text-[2rem] overflow-hidden image-">
       <div className={IconsClassName}>
